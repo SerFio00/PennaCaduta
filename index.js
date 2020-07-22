@@ -3,6 +3,7 @@ const mysql = require("mysql")
 
 const key = require("./Resource/Api.json")
 
+const Credits = require("./Credits.json")
 var connection = mysql.createConnection({
     host: "localhost",
     user: "root",
@@ -23,17 +24,18 @@ function start(msg){
         if(err) throw err;
         console.log(res.length)
         if(res.length > 0){
+            Telegram.sendMessage(msg.chat.id, "AO, hai già mandato questo messaggio, basta!")
             return
         }
         connection.query(`INSERT INTO Caduta (ID) VALUES (?)`, [msg.from.id], err=>{
             if(err) throw err;
+            Telegram.sendMessage(msg.chat.id, "Benvenuto " + msg.from.first_name + ", questo bot conta quante volte a @SoldatoRusso è caduta la penna")
         })
     })
 }
 
 Telegram.on("text", msg =>{
     if(msg.text === "/start"){
-        Telegram.sendMessage(msg.chat.id, "Benvenuto " + msg.from.first_name + ", questo bot conta quante volte a @SoldatoRusso è caduta la penna")
         start(msg)
     }
     if(msg.text === "/add" && msg.chat.id === 180923698){
@@ -56,6 +58,6 @@ Telegram.on("text", msg =>{
         })
     }
     if(msg.text === "/credits"){
-        Telegram.sendMessage(msg.chat.id, `Questo bot è stato creato da: -${Crediti.Fiorenzo} e basta :) \n \n \n OK OK, SCUSA NON MI PICCHIARE- \n \n \n Con l'aiuto di -${Crediti.Stefano}`, {parse_mode:"HTML",})
+        Telegram.sendMessage(msg.chat.id, `Questo bot è stato creato da: ${Credits.Fiorenzo} e basta :) \n \n \n OK OK, SCUSA NON MI PICCHIARE- \n \n \n Con l'aiuto di ${Credits.Stefano}`, {parse_mode:"HTML",})
     }
 })
