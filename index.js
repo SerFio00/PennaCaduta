@@ -55,4 +55,7 @@ Telegram.on("text", msg =>{
             Telegram.sendMessage(msg.chat.id, "Questo è il numero di volte nelle quali la penna è caduta: " + src[0].Contatore)
         })
     }
+    if(msg.text === "/credits"){
+        Telegram.sendMessage(msg.chat.id, `Questo bot è stato creato da: -${Crediti.Fiorenzo} e basta :) \n \n \n OK OK, SCUSA NON MI PICCHIARE- \n \n \n Con l'aiuto di -${Crediti.Stefano}`, {parse_mode:"HTML",})
+    }
 })
