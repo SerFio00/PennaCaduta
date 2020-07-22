@@ -8,7 +8,7 @@ README.md di @Stefifox
 
 Un bot Telegram che conta quante volte è caduta la penna a @SerFio00
 
-[Avvia su Telegram]("https://t.me/PennaCaduta_Bot")
+[Avvia su Telegram](https://t.me/PennaCaduta_Bot)
 
 ## Bot Icon
 
