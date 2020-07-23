@@ -1,0 +1,32 @@
+{
+    "it": {
+        "welcome":{
+            "saluto": "Benvenuto ",
+            "continuo": ", questo bot conta quante volte a @SoldatoRusso è caduta la penna"
+        },
+        "registro":"AO, hai già mandato questo messaggio, basta!",
+        "aggiunto":"Aggiunto con successo, ora sei un po' più rincoglionito Fioré",
+        "redenzione":"Tutti i tuoi peccati sono stati assolti",
+        "caduta":"Quante volte la penna è caduta: ",
+        "crediti":{
+            "inizio":"Questo bot è stato creato solo da: ",
+            "picchiare":"OK OK, SCUSA NON MI PICCHIARE- ",
+            "scusa":"Con il contributo di"
+        }
+    },
+    "en": {
+        "welcome":{
+            "saluto": "Welcome ",
+            "continuo": ", this bot counts how many times @SoldatoRusso has dropped his pen"
+        },
+        "registro":"Ehi, you have already sent this message, that's enough!",
+        "aggiunto":"Successfully added, you are now a little more stoned Fioré",
+        "redenzione":"All your sins have been absolved",
+        "caduta":"How many times has the pen fallen: ",
+        "crediti":{
+            "inizio":"This bot was created only by: ",
+            "picchiare":"OK OK, SORRY, DON'T HURT ME-",
+            "scusa":"With the contribution of: "
+        }
+    }
+}
