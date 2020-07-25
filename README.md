@@ -22,3 +22,13 @@ Icona basata su [Illusrio](https://illustrio.com/)
     - [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) -- ```$ npm install node-telegram-bot-api```
     - mysql -- ```$ npm install mysql```
 - mySQL 5.7 Server
+
+### Costruzione del file Api.json
+
+```
+{
+    "ApiKey":"Telegram BotApi Token"
+}
+```
+
+Inserite il vostro token all'interno delle vigolette
