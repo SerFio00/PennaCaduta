@@ -14,7 +14,7 @@ Un bot Telegram che conta quante volte è caduta la penna a @SerFio00
 
 ![Icona Bot](https://github.com/SerFio00/PennaCaduta/blob/master/icon.png?raw=true)
 
-Icona basata su [Illusrio](https://illustrio.com/)
+Icona basata su [Illustrio](https://illustrio.com/)
 
 ## Requirements
 
@@ -31,4 +31,4 @@ Icona basata su [Illusrio](https://illustrio.com/)
 }
 ```
 
-Inserite il vostro token all'interno delle vigolette
+Inserite il vostro token all'interno delle virgolette
