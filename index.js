@@ -24,7 +24,7 @@ var Telegram = new Telegrambot(key.Apikey, {
 function getLanguage(msg) {
     return new Promise((resolve, reject) => {
         let lanCode = msg.from.language_code
-        if (lanCode === 'en' || lanCode === 'it') {
+        if (lanCode === 'en' || lanCode === 'it' || lanCode === 'de' || lanCode === 'fr') {
             resolve(lanCode)
             return
         }

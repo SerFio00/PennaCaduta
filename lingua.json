@@ -4,14 +4,14 @@
             "saluto": "Benvenuto ",
             "continuo": ", questo bot conta quante volte a @SoldatoRusso è caduta la penna"
         },
-        "registro":"AO, hai già mandato questo messaggio, basta!",
-        "aggiunto":"Aggiunto con successo, ora sei un po' più rincoglionito Fioré",
-        "redenzione":"Tutti i tuoi peccati sono stati assolti",
-        "caduta":"Quante volte la penna è caduta: ",
+        "registro": "AO, hai già mandato questo messaggio, basta!",
+        "aggiunto": "Aggiunto con successo, ora sei un po' più rincoglionito Fioré",
+        "redenzione": "Tutti i tuoi peccati sono stati assolti",
+        "caduta": "Quante volte la penna è caduta: ",
         "crediti":{
-            "inizio":"Questo bot è stato creato solo da: ",
-            "picchiare":"OK OK, SCUSA NON MI PICCHIARE- ",
-            "scusa":"Con il contributo di"
+            "inizio": "Questo bot è stato creato solo da: ",
+            "picchiare": "OK OK, SCUSA NON MI PICCHIARE- ",
+            "scusa": "Con il contributo di"
         }
     },
     "en": {
@@ -19,14 +19,44 @@
             "saluto": "Welcome ",
             "continuo": ", this bot counts how many times @SoldatoRusso has dropped his pen"
         },
-        "registro":"Ehi, you have already sent this message, that's enough!",
-        "aggiunto":"Successfully added, you are now a little more stoned Fioré",
-        "redenzione":"All your sins have been absolved",
-        "caduta":"How many times has the pen fallen: ",
+        "registro": "Ehi, you have already sent this message, that's enough!",
+        "aggiunto": "Successfully added, you are now a little more stoned Fioré",
+        "redenzione": "All your sins have been absolved",
+        "caduta": "How many times has the pen fallen: ",
         "crediti":{
-            "inizio":"This bot was created only by: ",
-            "picchiare":"OK OK, SORRY, DON'T HURT ME-",
-            "scusa":"With the contribution of: "
+            "inizio": "This bot was created only by: ",
+            "picchiare": "OK OK, SORRY, DON'T HURT ME-",
+            "scusa": "With the contribution of: "
+        }
+    },
+    "de": {
+        "welcome":{
+            "saluto": "Herzlich Willkommen ",
+            "continuo": ", Dieser Bot zählt, wie oft @SoldatoRusso seinen Stift fallen gelassen hat"
+        },
+        "registro": "Ehi, du hast diese Nachricht bereits gesendet, das reicht!",
+        "aggiunto": "Erfolgreich hinzugefügt, sind Sie jetzt ein wenig gesteinigter Fioré",
+        "redenzione": "Alle deine Sünden wurden freigesprochen",
+        "caduta": "Wie oft ist der Stift gefallen: ",
+        "crediti":{
+            "inizio": "Dieser Bot wurde nur erstellt von: ",
+            "picchiare": "OK OK, ENTSCHULDIGUNG, TUN SIE MIR NICHT-",
+            "scusa": "Mit dem Beitrag von: "
+        }
+    },
+    "fr": {
+        "welcome":{
+            "saluto": "Soyez le bienvenu! ",
+            "continuo": ", ce bot compte combien de fois @SoldatoRusso a laissé tomber son stylo"
+        },
+        "registro": "Ehi, tu as déjà envoyé ce message, ça suffit!",
+        "aggiunto": "Ajouté avec succès, vous êtes maintenant un peu plus défoncé Fioré",
+        "redenzione": "Tous vos péchés ont été absous",
+        "caduta": "Combien de fois le stylo est-il tombé: ",
+        "crediti:":{
+            "inizio": "Ce bot a été créé uniquement par: ",
+            "picchiare": "OK OK, DÉSOLÉ, NE ME BLESSER PAS-",
+            "scusa": "Avec la contribution de: "
         }
     }
 }
